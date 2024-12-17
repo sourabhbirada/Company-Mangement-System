@@ -4,6 +4,7 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const bodyParser = require('body-parser');
+const serverless = require('serverless-http');
 
 
 const databaseconnection = require('./connection');
